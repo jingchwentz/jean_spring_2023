@@ -13,9 +13,6 @@ p {
     
     body {background-color: #FFEFE5;}
     
-img{
-    width: 500px;
-}
     
     .flex-container {
       display: flex;
@@ -45,9 +42,14 @@ img{
     }
 
     .flex-container-3 {
+        img {
+            width: 500px;
+            height: auto;
+            margin-right: 10px;
+          }
         display: flex;
           width: 2000px;
-        height: 500px;
+        height: 1000px;
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
