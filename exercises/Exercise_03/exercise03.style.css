@@ -13,6 +13,10 @@ p {
     
     body {background-color: #FFEFE5;}
     
+img{
+    width: 500px;
+}
+    
     .flex-container {
       display: flex;
       width: 500px;
