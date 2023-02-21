@@ -1,4 +1,22 @@
-h2 {
-    color: red;
-}
+p {
+    color: black;
+    font-size: 18px;
+    }
+    
+    .title {
+    color: #f3dead;
+    }
+    
+    .lead {
+    color: #f6efdd;
+    }
+    
+    body {background-color: #CBA0AA;}
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
