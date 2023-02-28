@@ -1,0 +1,118 @@
+   /* Set the font family for all text on the page */
+   body {
+    font-family: sans-serif;
+  }
+  
+  /* Define the styles for the button container */
+  .button-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+  }
+  /* Define the styles for the buttons */
+  .button {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Define the style for the top left homepage link */
+  .homepage{
+    position: fixed;
+    top: 0;
+    right: -5;
+    background-color: white;
+    color:black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 25px;
+  }
+  
+  /* Define the style for the horizontal line */
+  .line {
+    position: fixed;
+    top: 50px; 
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+     
+  /* Define the styles for the button container-2 */
+  .button-container-2 {
+    position: relative;
+    top: 100px; /* adjust the top position */
+    left: 70%;
+    transform: translateX(-50%);
+    width: 800;
+    height: 40px;
+    background-color: white;
+    padding: 10px; 
+
+
+    /* Define the styles for the underlined buttons */
+    #button-container-2 .button {
+     text-decoration: underline;
+}
+
+    
+      /* Define the styles for the box */
+  #box {
+    width: 100%;
+    height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  /* Define the styles for the text inside the box */
+  #box p {
+    font-size: 24px;
+    color: black;
+  }
+
+   /*works*/
+        
+        /* Define the styles for the "Featured Works" text */
+        #featured-works {
+            font-size: 50px;
+            text-align: center;
+          }
+          /* Define the styles for the columns */
+          .column {
+            display: inline-block;
+            width: 48%;
+            margin: 1%;
+            vertical-align: top;
+          }
+          /* Define the styles for the images */
+          .image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+          /* Define the styles for the text below the images */
+          .image-caption {
+            font-size: 20px;
+            text-align: left;
+            margin-top: 10px;
+          }
+          /* Define the styles for the inquiry button */
+          .inquire-button {
+            display: block;
+            margin-top: 10px;
+            text-align: right;
+            background-color: white;
+          }
