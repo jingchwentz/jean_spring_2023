@@ -157,10 +157,11 @@ cursor: pointer;
 }
 
 #explore {
-width:80vw;
-margin:10px;
-padding:10px;
-background: white;
-border: black solid;
-cursor: pointer;
+  width:80vw;
+  margin:10px;
+  padding:20px;
+  background: white;
+  border: black solid;
+  cursor: pointer;
+  font-size:20px;
 }
