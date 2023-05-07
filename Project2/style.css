@@ -1,0 +1,32 @@
+.main{
+  display:flex;
+}
+
+.sort-header{
+  width:360px;
+  padding:20px;
+}
+
+
+.btn{
+    border:1px solid black;
+    padding:12px;
+    margin-bottom:24px;
+  }
+
+  .album-photo {
+    display: block;
+    width: 240px;
+    height: 240px;
+    margin:12px;
+  }
+
+
+  #album-display-panel{
+    max-width: 1400px;
+    height:100vh;
+    overflow:scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
