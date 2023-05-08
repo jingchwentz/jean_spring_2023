@@ -17,8 +17,8 @@ p {
     .container {
       justify-content: center;
       flex-direction: row;
-      width: fit-content
-      height: fit-content
+      width: fit-content;
+      height: fit-content;
     }
     
     .flex-item {
@@ -33,7 +33,7 @@ p {
   }
   
     .right {
-      padding: 20px;px
+      padding: 20px;
       height: 100%;
       width: 45%;
       float: right;
