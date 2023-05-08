@@ -26,16 +26,16 @@ p {
     }
     
     .left {
-      padding: 10px;
+      padding: 20px;
       height: 100%;
-      Width: 40%;
+      Width: 45%;
       float: left;
   }
   
     .right {
-      padding:10px
+      padding: 20px;px
       height: 100%;
-      width: 40%;
+      width: 45%;
       float: right;
   }
   
